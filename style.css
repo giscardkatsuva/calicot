@@ -1,0 +1,131 @@
+ /* Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* En-tête */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.gauche, .droite {
+    display: flex;
+    align-items: center;
+}
+
+.ci {
+    width: 200px;
+}
+
+.ucbc {
+    width: 150px;
+}
+
+.nom {
+    color: red;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: rgba(15, 86, 58, 0.751);
+    margin-left: 10px;
+}
+
+/* Section Devise */
+.devise {
+    background-color: rgba(15, 86, 58, 0.751);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Section Thème */
+.theme {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.engfr {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fr, .eng {
+    background-color: rgb(215, 55, 55);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Section 1 : Texte du thème */
+.section1 {
+    margin: 20px 0;
+}
+
+.th {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.texte {
+    background-color: rgba(15, 86, 58, 0.751);
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Section 2 : Verset biblique */
+.section2 {
+    margin: 20px 0;
+}
+
+.text1 {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(236, 229, 229, 0.795);    
+}
+.green {
+    color:green;
+}
+.red{
+    color: red;
+}
